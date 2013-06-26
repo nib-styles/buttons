@@ -105,11 +105,14 @@
   $shadow: darken($primary, 10%);
   $highlight: adjust-hue($primary, 10deg);
 
-  @include vertical-gradient($highlight, $primary, $primary);
-
-  border: 1px solid $shadow;
-  box-shadow: 0 1px 0 rgba(#fff, 0.5) inset, 0 1px 0 rgba(#000, 0.1);
-  text-shadow: 0 1px 1px rgba($shadow, 1);
+  &,
+  &[disabled]:active,
+  &[disabled]:hover {
+    @include vertical-gradient($highlight, $primary, $primary);
+    border: 1px solid $shadow;
+    box-shadow: 0 1px 0 rgba(#fff, 0.5) inset, 0 1px 0 rgba(#000, 0.1);
+    text-shadow: 0 1px 1px rgba($shadow, 1);
+  }
 
   &:hover {
     @include vertical-gradient( lighten($highlight, 10%), $primary, darken($highlight, 5%) );
