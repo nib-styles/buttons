@@ -2,15 +2,18 @@
   "name": "buttons",
   "repo": "nib-styles/buttons",
   "description": "Button styles",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "keywords": [],
   "dependencies": {},
   "development": {},
   "license": "MIT",
   "styles": [
-    "index.scss"
+    "index.css",
+    "lib/modifiers.css",
+    "lib/group.css"
   ],
-  "files": [
-    "images/btn-secondary.png"
+  "images": [
+    "images/grey.png",
+    "images/chevron.png"
   ]
 }
