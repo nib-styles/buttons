@@ -241,7 +241,7 @@
 
 .btn-label {
   padding: 5px;
-  background: darken($lighter-grey, 3%);
+  background: #e6e6e6;
   border-radius: 5px;
   overflow: hidden;
   float: right;
@@ -306,7 +306,7 @@
 }
 
 .no-cssgradients .btn--secondary.is-disabled {
-  background: $ddd;
+  background: #ddd;
 }
 
 .btn--secondary.btn--small,
