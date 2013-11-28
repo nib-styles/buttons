@@ -8,7 +8,7 @@
   font-smoothing: antialiased;
   box-sizing: border-box;
   background: #1F7C07;
-  background: linear-gradient(top,#2bac0a,#1f7c07);
+  background: linear-gradient(to bottom,#2bac0a,#1f7c07);
   appearance: none;
   border-radius: 3px;
   border: 1px solid #196406;
@@ -38,7 +38,7 @@
 .btn:hover {
   color: #FFF;
   background: #259408;
-  background: linear-gradient(top,#31c40b,#1f7c07);
+  background: linear-gradient(to bottom,#31c40b,#1f7c07);
 }
 
 .btn:active {
