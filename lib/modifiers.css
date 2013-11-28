@@ -82,7 +82,7 @@
 .btn--dark {
   background: #444;
   color: #fff;
-  box-shadow: 0 0 0 5px rgba(#666, 0.2);
+  box-shadow: 0 0 0 5px rgba(102,102,102, 0.2);
   text-shadow: none;
   border: 0;
 }
