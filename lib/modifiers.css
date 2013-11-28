@@ -162,7 +162,7 @@
 
 .btn--inverse {
   background: #666;
-  background: linear-gradient(top,#8c8c8c,#666);
+  background: linear-gradient(to bottom,#8c8c8c,#666);
   color: #FFF;
   border: 1px solid #4D4D4D;
   text-shadow: 0 1px 1px #4D4D4D;
